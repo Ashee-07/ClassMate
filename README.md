@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ClassMate - Comprehensive Academic Management System
 
 ClassMate is a modern Android application designed to streamline communication and resource management between students and academic administrators. Built with a focus on usability and real-time updates, it serves as a digital hub for all classroom-related activities.
@@ -53,3 +54,6 @@ In the fast-paced academic environment, keeping track of assignments, exams, and
 
 ---
 Developed with ❤️ to make academic life easier.
+=======
+# ClassMate
+>>>>>>> 7fe6194a388ec8964000e06614e27ea9a73f12ff
