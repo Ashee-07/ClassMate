@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ClassMate" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_indigo</item>
+        <item name="colorPrimaryVariant">@color/primary_indigo_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent_violet</item>
+        <item name="colorSecondaryVariant">@color/accent_violet</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/grad_start</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="android:windowBackground">@color/gray_bg</item>
+        <item name="android:textColorPrimary">@color/black</item>
+
+        <!-- Premium Font & Shape -->
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.ClassMate.Large</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.ClassMate.Medium</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.ClassMate.Small</item>
+    </style>
+
+    <!-- Compatibility Style -->
+    <style name="ShapeAppearance.LargeComponent.RoundedTop" parent="ShapeAppearance.ClassMate.Large">
+        <item name="cornerSizeTopLeft">32dp</item>
+        <item name="cornerSizeTopRight">32dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <style name="ShapeAppearance.ClassMate.Large" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="ShapeAppearance.ClassMate.Medium" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.ClassMate.Small" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="Theme.ClassMate.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ClassMate.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.ClassMate.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ClassMate</string>
+    <string name="welcome_title">Welcome to ClassMate</string>
+    <string name="welcome_subtitle">Your Smart Academic Companion</string>
+    <string name="search_hint">Search subjects or notices...</string>
+
+    <string name="module_assignments">Assignments</string>
+    <string name="module_announcements">Announcements</string>
+    <string name="module_exams">Exams</string>
+    <string name="module_labs">Labs</string>
+    <string name="module_events">Events</string>
+    <string name="module_seminars">Seminars</string>
+    <string name="module_materials">Study Materials</string>
+    <string name="module_calendar">Academic Calendar</string>
+    <string name="module_drive_updates">Drive Updates</string>
+    <string name="module_exam_marks">Exam Marks</string>
+
+    <string name="admin_login">Admin Login</string>
+    <string name="logout">Logout</string>
+    <string name="no_data_found">No data available currently</string>
+    <string name="download">Download</string>
+
+    <string name="role_selection_title">Welcome to ClassMate</string>
+    <string name="role_selection_subtitle">Choose your role to continue</string>
+    <string name="role_student">Student</string>
+    <string name="role_student_desc">Access study materials and updates</string>
+    <string name="role_admin">Administrator</string>
+    <string name="role_admin_desc">Manage content and resources</string>
+
+    <string name="add_announcement">Add Announcement</string>
+</resources>
